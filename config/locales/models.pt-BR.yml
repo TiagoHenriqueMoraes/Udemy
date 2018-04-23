@@ -7,16 +7,21 @@
       adresses:
         one: Endereço
         other: Endereços
+      phone:
+        one: Telefone
+        other: Telefones
     attributes:
       contact:
-        name: "Nome"
-        email: "E-mail"
-        kind: "Tipo de Contato"
-        kind_id: "Tipo de Contato"
-        rmk: "Obs."
+        name: Nome
+        email: E-mail
+        kind: Tipo de Contato
+        kind_id: Tipo de Contato
+        rmk: Obs.
       adress:
-        street: "Rua"
-        city: "Cidade"
-        state: "Estado"
+        street: Rua
+        city: Cidade
+        state: Estado
         contact_id: Contato
-        rmk: "Obs."
+        rmk: Obs.
+      phone:
+        phone: Telefone
