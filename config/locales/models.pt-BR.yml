@@ -4,9 +4,19 @@
       contact:
         one: Contato
         other: Contatos
+      adresses:
+        one: Endereço
+        other: Endereços
     attributes:
       contact:
         name: "Nome"
-        email: "Email"
+        email: "E-mail"
         kind: "Tipo de Contato"
-        rmk: "Obs"
+        kind_id: "Tipo de Contato"
+        rmk: "Obs."
+      adress:
+        street: "Rua"
+        city: "Cidade"
+        state: "Estado"
+        contact_id: Contato
+        rmk: "Obs."
