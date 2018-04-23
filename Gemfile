@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.6'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 
-
+gem 'lerolero_generator'
 gem 'rails-i18n', '~>4.0.0'
 
 gem 'puma', '~> 3.7'
