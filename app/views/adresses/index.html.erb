@@ -1,3 +1,6 @@
+
+<div class="elegant-aero">
+
 <p id="notice"><%= notice %></p>
 
 <h1>Adresses</h1>
@@ -19,10 +22,10 @@
         <td><%= adress.street %></td>
         <td><%= adress.city %></td>
         <td><%= adress.state %></td>
-        <td><%= adress.contact %></td>
+        <td><%= adress.contact.name %></td>
         <td><%= link_to 'Show', adress %></td>
         <td><%= link_to 'Edit', edit_adress_path(adress) %></td>
-        <td><%= link_to 'Destroy', adress, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', adress, method: :delete, data: { confirm: t('messages.confirm') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -31,3 +34,4 @@
 <br>
 
 <%= link_to 'New Adress', new_adress_path %>
+</div>
