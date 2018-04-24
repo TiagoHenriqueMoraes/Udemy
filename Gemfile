@@ -21,6 +21,8 @@ gem "kaminari"
 
 gem 'jquery-rails'
 
+gem "bower-rails", "~> 0.11.0"
+
 #lerolero é semelhante ao faker mas usa para conteudo em portugues.
 gem 'lerolero_generator'
 
