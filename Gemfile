@@ -12,7 +12,15 @@ gem 'rails', '~> 5.1.6'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 
+#gem jQuerry para manipular dinamicamente formularios alinhados.
+gem "cocoon"
+
+gem 'jquery-rails'
+
+#lerolero é semelhante ao faker mas usa para conteudo em portugues.
 gem 'lerolero_generator'
+
+#gem de tradução.
 gem 'rails-i18n', '~>4.0.0'
 
 gem 'puma', '~> 3.7'
