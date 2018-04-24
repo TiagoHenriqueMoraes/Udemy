@@ -15,6 +15,10 @@ gem 'pg', '>= 0.18', '< 2.0'
 #gem jQuerry para manipular dinamicamente formularios alinhados.
 gem "cocoon"
 
+gem "kaminari-i18n"
+
+gem "kaminari"
+
 gem 'jquery-rails'
 
 #lerolero é semelhante ao faker mas usa para conteudo em portugues.

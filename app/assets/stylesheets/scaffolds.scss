@@ -25,6 +25,9 @@ table{
   font-size: 11px;
 }
 
+.elegant-aero div.field_with_errors>input{
+  border-color: red;
+}
 .elegant-aero label>span {
   float: left;
   margin-top: 10px;
