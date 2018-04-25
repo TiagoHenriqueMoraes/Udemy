@@ -29,9 +29,12 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table><br>
+<%= paginate @adresses %>
 
 <br>
 
-<%= link_to 'New Adress', new_adress_path %>
+<%= link_to 'New Adress', new_adress_path, class: "btn btn-default" %>
+<%= link_to t('buttons.home'), root_path, class: "btn btn-default" %>
+
 </div>

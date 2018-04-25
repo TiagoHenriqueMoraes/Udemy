@@ -24,9 +24,12 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+</table><br>
 
+<%= paginate @phones%>
 <br>
 
-<%= link_to 'New Phone', new_phone_path %>
+<%= link_to 'New Phone', new_phone_path, class: "btn btn-default" %>
+<%= link_to t('buttons.home'), root_path, class: "btn btn-default" %>
+
 </div>

@@ -6,28 +6,43 @@ git_source(:github) do |repo_name|
 end
 
 
+#atualização do bundler
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
-# Use Puma as the app server
 
-#gem jQuerry para manipular dinamicamente formularios alinhados.
+
+
+#rails assets é o site repertorio de diversas bibliotecas JavaScript. Nesse caso estamos baixando
+#     a lib "notifyjs"
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+
+#gem para integração de formulario aninhados
 gem "cocoon"
 
+
+#gem para paginação de formularios
+gem "kaminari"
+#gem para tradução da paginação dos formularios
 gem "kaminari-i18n"
 
-gem "kaminari"
+#colocando gem Bootstrap via rails assets
+gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
 
+#implementação de bibliotecas jquerry no rails
 gem 'jquery-rails'
 
-gem "bower-rails", "~> 0.11.0"
 
 #lerolero é semelhante ao faker mas usa para conteudo em portugues.
 gem 'lerolero_generator'
 
 #gem de tradução.
 gem 'rails-i18n', '~>4.0.0'
+
+gem 'twitter-bootstrap-rails'
+
 
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
