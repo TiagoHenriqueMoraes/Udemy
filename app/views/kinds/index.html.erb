@@ -1,7 +1,8 @@
 
 <div class="elegant-aero">
-
-<p id="notice"><%= notice %></p>
+<script>
+  $.notify("<%= notice %>", "success")
+</script>
 
 <h1>Varios Xesques</h1>
 
@@ -17,9 +18,8 @@
     <% @kinds.each do |kind| %>
       <tr>
         <td><%= kind.description %></td>
-        <td><%= link_to 'Show', kind %></td>
-        <td><%= link_to 'Edit', edit_kind_path(kind) %></td>
-        <td><%= link_to 'Destroy', kind, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Edit', edit_kind_path(kind), class: "btn btn-info"  %></td>
+        <td><%= link_to 'Destroy', kind, method: :delete, class: "btn btn-danger",data: { confirm: 'Are you sure?' }%></td>
       </tr>
     <% end %>
   </tbody>
@@ -27,7 +27,7 @@
 
 <br>
 
-<%= link_to 'New Kind', new_kind_path, class: "btn btn-default" %>
+<%= link_to 'Novo Tipo', new_kind_path, class: "btn btn-success" %>
 <%= link_to t('buttons.home'), root_path, class: "btn btn-default" %>
 
 <div>

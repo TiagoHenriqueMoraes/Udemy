@@ -1,6 +1,7 @@
-<h1>Editing Kind</h1>
+<div class = "elegant-aero">
+<h1><%= "#{t('messages.editing')} #{@kind.model_name.human(count: 1)} " %></h1>
 
 <%= render 'form', kind: @kind %>
 
-<%= link_to 'Show', @kind %> |
-<%= link_to 'Back', kinds_path %>
+<%= link_to 'Back', kinds_path , class: "btn btn-success"%>
+</div>

@@ -2,4 +2,9 @@
   messages:
     confirm: Tem Certeza?
     listing: Listando
+    editing: Editando
+    new: Novo
     errors: "não permitiram a inserção dos dados:"
+    created: Criado com Sucesso!!
+    updated: Ataualizado com sucesso!!!
+    destroyed: Excluido com sucesso!!
